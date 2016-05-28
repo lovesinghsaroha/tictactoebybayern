@@ -1,0 +1,112 @@
+<center><h2><b class="text-muted">T</b>ic <b class="text-muted">t</b>ac <b class="text-muted">toe</b></h2>
+<font class="text-muted">Developed by Bayern Munich manager in pes.</font></center>
+<div class="container">
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+<div class="col-md-4">
+<% oo = @moves.select {|m| m.rc == 11}-%>
+<h3>
+<% if oo[0] -%>
+<%= oo[0].value  -%>
+<% else -%>
+<a href="/pages/add_move?game_id=<%= params[:game_id] -%>&rc=11" class="btn btn-block btn-info">Tic</a>
+<% end -%>
+</h3>
+</div>
+<div class="col-md-4">
+<% oo = @moves.select {|m| m.rc == 12}-%>
+<h3>
+<% if oo[0] -%>
+<%= oo[0].value  -%>
+<% else -%>
+<a href="/pages/add_move?game_id=<%= params[:game_id] -%>&rc=12" class="btn btn-block btn-info">Tic</a>
+<% end -%>
+</h3>
+</div>
+<div class="col-md-4">
+<% oo = @moves.select {|m| m.rc == 13}-%>
+<h3>
+<% if oo[0] -%>
+<%= oo[0].value  -%>
+<% else -%>
+<a href="/pages/add_move?game_id=<%= params[:game_id] -%>&rc=13" class="btn btn-block btn-info">Tic</a>
+<% end -%>
+</h3>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+<div class="col-md-4">
+<% oo = @moves.select {|m| m.rc == 21}-%>
+<h3>
+<% if oo[0] -%>
+<%= oo[0].value  -%>
+<% else -%>
+<a href="/pages/add_move?game_id=<%= params[:game_id] -%>&rc=21" class="btn btn-block btn-info">Tic</a>
+<% end -%>
+</h3>
+</div>
+<div class="col-md-4">
+<% oo = @moves.select {|m| m.rc == 22}-%>
+<h3>
+<% if oo[0] -%>
+<%= oo[0].value  -%>
+<% else -%>
+<a href="/pages/add_move?game_id=<%= params[:game_id] -%>&rc=22" class="btn btn-block btn-info">Tic</a>
+<% end -%>
+</h3>
+</div>
+<div class="col-md-4">
+<% oo = @moves.select {|m| m.rc == 23}-%>
+<h3>
+<% if oo[0] -%>
+<%= oo[0].value  -%>
+<% else -%>
+<a href="/pages/add_move?game_id=<%= params[:game_id] -%>&rc=23" class="btn btn-block btn-info">Tic</a>
+<% end -%>
+</h3>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+<div class="col-md-4">
+<% oo = @moves.select {|m| m.rc == 31}-%>
+<h3>
+<% if oo[0] -%>
+<%= oo[0].value  -%>
+<% else -%>
+<a href="/pages/add_move?game_id=<%= params[:game_id] -%>&rc=31" class="btn btn-block btn-info">Tic</a>
+<% end -%>
+</h3>
+</div>
+<div class="col-md-4">
+<% oo = @moves.select {|m| m.rc == 32}-%>
+<h3>
+<% if oo[0] -%>
+<%= oo[0].value  -%>
+<% else -%>
+<a href="/pages/add_move?game_id=<%= params[:game_id] -%>&rc=32" class="btn btn-block btn-info">Tic</a>
+<% end -%>
+</h3>
+</div>
+<div class="col-md-4">
+<% oo = @moves.select {|m| m.rc == 33}-%>
+<h3>
+<% if oo[0] -%>
+<%= oo[0].value  -%>
+<% else -%>
+<a href="/pages/add_move?game_id=<%= params[:game_id] -%>&rc=33" class="btn btn-block btn-info">Tic</a>
+<% end -%>
+</h3>
+</div>
+</div>
+</div>
+<br>
+<div class="row">
+<div class="col-md-6 col-md-offset-3">
+<a href="/pages/clear" class="btn btn-info btn-block"> Clear all</a>
+</div>
+</div>
+</div>
